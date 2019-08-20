@@ -3,6 +3,7 @@ from keras.models import Sequential
 from keras.layers.core import Dense
 from keras.utils import np_utils
 from keras.datasets import mnist
+#https://www.youtube.com/watch?v=KoINpCtykHc
 
 (XTrain, YTrain),(XTest, YTest) = mnist.load_data()
 
